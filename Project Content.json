@@ -1,0 +1,493 @@
+{
+    "ministry": "Ministry of Labour and Employment",
+    "state": "Imo State",
+    "pages": {
+      "home": {
+        "page_name": "Home",
+        "content": {
+          "header_branding": {
+            "ministry_name": "Ministry of Labour and Employment",
+            "logo": "prominently displayed",
+            "navigation": ["Home", "About", "Programs", "Agencies", "News", "Contact"]
+          },
+          "hero_section": {
+            "headline": "Empowering the Imo Workforce",
+            "subtext": "Skills. Jobs. Productivity. Prosperity.",
+            "cta_buttons": [
+              "Apply for Skill Training",
+              "Explore Employment Opportunities"
+            ],
+            "background_image": "Inspiring image of Imo youth in vocational or digital training",
+            "optional_feature": "Scrolling announcement ticker (e.g., '2025 Batch B Skill Acquisition Now Open!')"
+          },
+          "quick_stats": {
+            "display_type": "Info Tiles",
+            "stats": {
+              "youths_trained": "65,000+ since 2021",
+              "jobs_facilitated": "12,400+ placements",
+              "active_programs": "15 across all zones",
+              "partners": "20+ local & global collaborators"
+            }
+          },
+          "about_ministry_mini": {
+            "description": "The Imo State Ministry of Labour & Employment drives job creation, skill development, and workforce empowerment through innovative training programs and public-private partnerships.",
+            "cta": "Read full About Us"
+          },
+          "key_programs": {
+            "display_type": "Interactive Tiles or Cards",
+            "programs": {
+              "skill_acquisition_schemes": {
+                "description": "Hands-on training for trades, manufacturing, crafts",
+                "features": ["Image/Icon", "Short teaser", "Learn More button"]
+              },
+              "skillup_imo_digital": {
+                "description": "Modern tech & digital training for youths",
+                "features": ["Image/Icon", "Short teaser", "Learn More button"]
+              },
+              "graduate_entrepreneurship": {
+                "description": "Business funding for innovative graduates",
+                "features": ["Image/Icon", "Short teaser", "Learn More button"]
+              },
+              "imo_jobs_portal": {
+                "description": "Online platform for job seekers and employers",
+                "features": ["Image/Icon", "Short teaser", "Learn More button"]
+              }
+            }
+          },
+          "latest_news": {
+            "examples": [
+              "Governor Flags Off 300,000 Youth Digital Training",
+              "Ministry Partners PWI on Detergent & Soap Training"
+            ],
+            "cta": "View All News"
+          },
+          "testimonials": {
+            "display_type": "Carousel-style quotes or short video snippets",
+            "example": "'Before SkillUp Imo, I was unemployed. Now I run my own tech business.' — Jane I., Owerri North"
+          },
+          "departments_overview": {
+            "departments": [
+              "Inspectorate Services",
+              "Employment & Wages",
+              "Industrial Relations",
+              "Occupational Safety & Health",
+              "Policy, Research & Statistics"
+            ]
+          },
+          "agencies_parastatals": {
+            "affiliated_bodies": [
+              "Michael Imoudu National Institute for Labour Studies (MINILS)",
+              "National Directorate of Employment (NDE)",
+              "National Productivity Centre (NPC)",
+              "Nigeria Social Insurance Trust Fund (NSITF)",
+              "Industrial Arbitration Panel (IAP)"
+            ],
+            "reference": "minils.gov.ng"
+          },
+          "contact_quick_access": {
+            "address": "Block 6, State Secretariat, Port Harcourt Road, New Owerri, Imo State",
+            "phone": "+234 803 564 3563",
+            "email": "[Insert Ministry Email or Portal Link]",
+            "hours": "Monday to Friday, 8:00 AM – 4:00 PM",
+            "quick_links": ["FAQs", "Complaints Desk", "Downloads", "Public Notices"],
+            "optional_feature": "Live Chat Plugin"
+          },
+          "footer": {
+            "navigation_repeat": ["Home", "About", "Programs", "News", "Contact"],
+            "social_media": ["Facebook", "X (Twitter)", "LinkedIn (if available)"],
+            "legal_links": ["Privacy Policy", "Terms of Use", "Accessibility"]
+          }
+        }
+      },
+      "about_us": {
+        "page_name": "About Us",
+        "content": {
+          "page_title": "About the Ministry",
+          "intro_text": "At the heart of Imo State's economic development is a robust and future-focused labour force. Our ministry is committed to nurturing, equipping, and empowering every citizen with the tools for decent work, entrepreneurial success, and self-reliance.",
+          "mandate": {
+            "title": "Our Mandate",
+            "description": "The Ministry of Labour and Employment is responsible for: Formulating and implementing employment policies, Facilitating job creation, Promoting workers' rights, Managing industrial relations within Imo State. We serve as a bridge between the government, employers, and the workforce."
+          },
+          "mission_statement": "To develop and implement inclusive policies that promote decent employment, empower youths, protect workers' rights, and support socio-economic growth across Imo State.",
+          "vision_statement": "A vibrant, skilled, and employed population that drives the prosperity and productivity of Imo State.",
+          "core_values": {
+            "display_type": "Interactive tiles or icons",
+            "values": ["Integrity", "Inclusiveness", "Innovation", "Equity", "Empowerment", "Accountability", "Partnership"]
+          },
+          "commissioner_message": {
+            "name": "Prof. Boniface G. Nworgu",
+            "message": "As Commissioner, I am honored to serve in a time when building a strong labour force is key to our state's future. We are passionate about unlocking opportunities for every Imolite — from rural artisans to tech-savvy graduates. I invite all citizens, institutions, and investors to partner with us as we position Imo for labour-driven prosperity."
+          },
+          "leadership_team": {
+            "positions": [
+              "Hon. Commissioner",
+              "Permanent Secretary",
+              "Director of Employment & Skills Development – Oversees vocational policy rollouts",
+              "Director of Labour Relations – Manages employer-worker negotiations",
+              "Director of Inspectorate Services – Ensures workplace compliance and safety",
+              "Director of Industrial Arbitration – Mediates labour disputes",
+              "Director of Women & Youth Empowerment – Drives inclusive labour policies"
+            ]
+          },
+          "brief_history": "The Ministry was established to tackle rising unemployment, improve working conditions, and provide strategic direction for labour in Imo State. Over the years, it has evolved with innovations such as the SkillUp Imo Digital Program and the creation of the Imo Jobs Portal.",
+          "legal_framework": "The Ministry operates under the Labour Act Cap L1, Laws of the Federation of Nigeria 2004 and the Imo State Labour Policy Guidelines. It aligns with the Federal Ministry of Labour and the conventions of the International Labour Organization (ILO).",
+          "quick_links": ["Meet the Team", "Explore Our Programs", "Contact the Ministry"],
+          "contact_info": {
+            "phone": "+234‑805‑138‑3688",
+            "email": "info@labour.gov.ng"
+          }
+        }
+      },
+      "commissioner": {
+        "page_name": "Commissioner",
+        "content": {
+          "page_title": "Hon. Commissioner – Prof. Boniface G. Nworgu",
+          "hero_section": {
+            "image": "Official high-resolution portrait of the Commissioner",
+            "overlay_text": "Committed to advancing decent work, social justice, and economic empowerment across Imo State."
+          },
+          "bio_section": {
+            "heading": "About Prof. Boniface G. Nworgu",
+            "content": "Prof. Boniface G. Nworgu is an accomplished scholar, seasoned labour expert, and public administrator with over 30 years of experience in education, labour policy, and human capital development. Before his appointment as Honourable Commissioner for Labour and Employment, he served as a professor of educational measurement and evaluation and held leadership roles in academic institutions, policy advisory boards, and national commissions. His passion for youth empowerment, decent work, and industrial harmony has positioned him as a reform-driven leader within the Imo State Executive Council."
+          },
+          "commissioner_message": {
+            "heading": "A Message from the Honourable Commissioner",
+            "content": "In a rapidly changing economy, our duty as a government is not only to create jobs but to prepare our people for the future of work. At the Ministry of Labour and Employment, we believe in building strong institutions, promoting fair labour practices, and equipping our workforce with the skills and confidence needed to thrive. Through strategic partnerships, reforms, and impactful programs, we are laying the foundation for a more inclusive and productive Imo State. — Prof. Boniface G. Nworgu"
+          },
+          "areas_of_focus": {
+            "display_type": "Quick highlight bar or icon grid",
+            "focus_areas": [
+              "Decent Work & Labour Rights",
+              "Youth Skills Development & Employment",
+              "MSME Support & Cooperative Labour",
+              "Labour Data & Digital Transformation",
+              "Industrial Relations & Workplace Safety"
+            ]
+          },
+          "contact_schedule": {
+            "office_contact": {
+              "location": "Ministry of Labour and Employment Headquarters, Owerri",
+              "email": "commissioner.labour@imostate.gov.ng",
+              "phone": "+234 803 456 7890"
+            },
+            "public_briefings": [
+              "Quarterly Labour Stakeholders' Forum",
+              "Youth Employment Town Halls",
+              "(Exact dates published under Events page)"
+            ]
+          }
+        }
+      },
+      "departments_agencies": {
+        "page_name": "Departments & Agencies",
+        "content": {
+          "page_title": "Departments & Their Functions",
+          "intro_text": "Our ministry is organized into specialized departments, each focused on a key aspect of labour development, employment generation, and industrial relations. Together, they drive our mandate of empowering Imo citizens through decent work and economic opportunity.",
+          "departments": {
+            "employment_job_creation": {
+              "name": "Employment & Job Creation Department",
+              "description": "Designs and implements employment policies, job placement services, public work schemes, and partnerships with private employers.",
+              "functions": [
+                "Manage job portals and career centers",
+                "Coordinate SkillUp Imo employment programs",
+                "Link citizens to MSME and startup opportunities"
+              ]
+            },
+            "labour_relations": {
+              "name": "Labour Relations & Dispute Resolution Department",
+              "description": "Oversees industrial harmony, workplace rights enforcement, and conflict mediation between employers and employees.",
+              "functions": [
+                "Mediate labour disputes",
+                "Ensure compliance with labour laws",
+                "Engage with unions and employer groups"
+              ]
+            },
+            "skills_development": {
+              "name": "Skills Development & Training Department",
+              "description": "Drives youth skill acquisition, technical training, and apprenticeship programs.",
+              "functions": [
+                "Design vocational training curricula",
+                "Manage the Imo State Skills Centres",
+                "Monitor training providers and facilitators"
+              ]
+            },
+            "labour_inspectorate": {
+              "name": "Labour Inspectorate & Compliance",
+              "description": "Conducts workplace inspections to ensure safety, legal employment practices, and compliance with labour standards.",
+              "functions": [
+                "Inspect workplaces for labour law violations",
+                "Investigate worker complaints",
+                "Enforce occupational health and safety standards"
+              ]
+            },
+            "women_youth_empowerment": {
+              "name": "Women & Youth Empowerment Department",
+              "description": "Focused on promoting inclusive employment for women, youth, and vulnerable populations.",
+              "functions": [
+                "Run empowerment programs and grants",
+                "Facilitate gender-based job policies",
+                "Collaborate with NGOs on outreach"
+              ]
+            },
+            "research_planning": {
+              "name": "Research, Planning & Policy Department",
+              "description": "Supports evidence-based policymaking through labour market research and impact assessments.",
+              "functions": [
+                "Collect labour statistics",
+                "Evaluate program effectiveness",
+                "Draft labour policy documents and reports"
+              ]
+            },
+            "admin_finance": {
+              "name": "Admin & Finance Department",
+              "description": "Provides administrative, logistical, and financial support to ensure ministry operations run smoothly.",
+              "functions": [
+                "Staff management and HR operations",
+                "Oversee budgeting and expenditure",
+                "Manage procurement and assets"
+              ]
+            }
+          },
+          "call_to_action": "Want to collaborate with one of our departments? Reach out through our [Contact Page] or email the ministry directly."
+        }
+      },
+      "services": {
+        "page_name": "Services",
+        "content": {
+          "page_title": "Our Services",
+          "intro_text": "The Ministry of Labour and Employment offers a broad range of services to support decent work, social justice, and inclusive economic growth in Imo State. These services are accessible to individuals, employers, unions, cooperatives, and organizations working to build a fair and thriving economy.",
+          "services_list": {
+            "labour_relations_dispute": {
+              "title": "Labour Relations & Dispute Resolution",
+              "description": "We provide mediation services for resolving workplace disputes, support collective bargaining processes, and enforce labour rights in accordance with Nigerian labour laws.",
+              "target_audience": "Employers, unions, individual workers",
+              "how_to_apply": "Submit your case details using the Labour Dispute Form or visit the Industrial Relations Desk at the Ministry."
+            },
+            "job_matching": {
+              "title": "Job Matching & Employment Services",
+              "description": "We connect job seekers with available opportunities across Imo State through job fairs, employment placement programs, and digital platforms.",
+              "target_audience": "Youth, unemployed graduates, skilled workers",
+              "how_to_apply": "Register at the Employment Desk or via our Online Job Portal (coming soon)."
+            },
+            "skills_development": {
+              "title": "Skills Development & Youth Empowerment",
+              "description": "We organize vocational and technical trainings, entrepreneurship bootcamps, and soft-skills workshops designed to equip youths for the evolving world of work.",
+              "target_audience": "Youth aged eighteen to thirty-five, informal sector workers",
+              "how_to_apply": "Explore current and upcoming programs under the Training Opportunities section."
+            },
+            "cooperative_msme": {
+              "title": "Cooperative Labour & MSME Support",
+              "description": "We support the formation and formalization of labour cooperatives, offer access to business grants, and deliver training sessions to help micro and small enterprises grow sustainably.",
+              "target_audience": "Informal workers, cooperatives, micro and small businesses",
+              "how_to_apply": "Visit the Cooperative Services Unit at the Ministry or download forms online."
+            },
+            "workplace_safety": {
+              "title": "Workplace Safety & Labour Inspection",
+              "description": "We conduct workplace audits and inspections to ensure full compliance with health and safety standards across all sectors.",
+              "target_audience": "Employers, factories, workshops",
+              "how_to_apply": "Request an inspection through the Labour Safety Desk or use the online booking form."
+            },
+            "labour_data": {
+              "title": "Labour Data, Certification & Policy Advisory",
+              "description": "We provide labour market statistics, employment law guidance, and advisory support for businesses, NGOs, and researchers developing labour-related policies or proposals.",
+              "target_audience": "Businesses, NGOs, research institutions",
+              "how_to_request": "Send a formal inquiry to the Policy Research Unit via email or letter."
+            },
+            "report_abuses": {
+              "title": "Report Labour Abuses",
+              "description": "We offer a safe and confidential channel for reporting issues such as workplace exploitation, unpaid wages, child labour, or forced labour.",
+              "how_to_report": "Click the 'Report a Case' button on this page or call the Labour Hotline at +234 803 123 4567."
+            }
+          },
+          "downloadable_forms": [
+            "Employment Registration Form",
+            "Dispute Resolution Request",
+            "Cooperative Registration Form",
+            "Workplace Inspection Request"
+          ]
+        }
+      },
+      "projects": {
+        "page_name": "Projects",
+        "content": {
+          "page_title": "Our Projects & Programs",
+          "intro_text": "We're committed to empowering the people of Imo State through impactful labour and employment programs. From skill acquisition to employment facilitation, our projects reflect our mission to build a productive, inclusive, and economically vibrant workforce.",
+          "featured_projects": {
+            "skillup_imo": {
+              "name": "SkillUp Imo (Labour Arm)",
+              "overview": "Supporting the state's digital economy agenda, this program equips unemployed youth and job seekers with advanced digital, soft, and vocational skills.",
+              "key_activities": [
+                "Training in UI/UX design, web development, and digital marketing",
+                "Job placement and internship partnerships",
+                "Certification and mentorship support"
+              ],
+              "status": "Ongoing"
+            },
+            "msme_employment": {
+              "name": "MSME Employment Initiative",
+              "overview": "A job facilitation program connecting micro and small businesses with trained job seekers to reduce unemployment.",
+              "key_activities": [
+                "Managing a live employer database",
+                "Hosting job matching fairs and business support workshops",
+                "Providing microgrants to MSMEs that hire Imo youth"
+              ],
+              "partners": "Imo SME Agency, National Directorate of Employment (NDE)",
+              "status": "Ongoing"
+            },
+            "lmis": {
+              "name": "Labour Market Information System (LMIS)",
+              "overview": "Building a digital labour data hub to analyze and visualize employment trends in Imo State.",
+              "key_activities": [
+                "Registration portals for employers and employees",
+                "Real-time vacancy and trend analytics",
+                "Policy dashboards for ministry planning"
+              ],
+              "status": "In Development"
+            },
+            "cooperative_labour": {
+              "name": "Cooperative Labour Scheme",
+              "overview": "Organizing artisans, traders, and skilled youth under labour-backed cooperative projects to boost employment and productivity.",
+              "key_activities": [
+                "Forming registered cooperatives",
+                "Engaging cooperatives in small-scale infrastructure and market renovation contracts",
+                "Facilitating access to microcredit via the State Cooperatives Bank"
+              ],
+              "status": "Piloting"
+            },
+            "industrial_relations_reform": {
+              "name": "Industrial Relations Reform Program",
+              "overview": "Enhancing workplace safety, workers' rights education, and employer-union harmony across public and private sectors.",
+              "key_activities": [
+                "Hosting labour town halls",
+                "Offering free legal aid for workers",
+                "Distributing simplified labour law handbooks"
+              ],
+              "status": "Active – Phase II"
+            }
+          },
+          "archived_projects": [
+            "Imo Youth Empowerment Bootcamp – 2022",
+            "Rural Skills for Employment – 2021 to 2023",
+            "ILO Workers' Rights Sensitization Tour",
+            "Covid-19 Labour Recovery Grants"
+          ],
+          "call_to_action": {
+            "text": "Want to participate, volunteer, or partner with us on any of these programs?",
+            "contact": "Reach out via our [Contact Form] or email: labour@imostate.gov.ng"
+          }
+        }
+      },
+      "news": {
+        "page_name": "News",
+        "content": {
+          "page_title": "Newsroom / Press Releases / Announcements",
+          "intro_text": "Stay informed with the latest updates, announcements, programs, and events from the Ministry of Labour and Employment. We are committed to keeping the public and stakeholders up-to-date with accurate and timely information.",
+          "featured_news_slider": {
+            "function": "Rotating banner or grid displaying the three to five most recent or impactful news items",
+            "visuals": "Image + headline + short excerpt + 'Read More'"
+          },
+          "latest_press_releases": {
+            "format": "Card format with Date of Publication, Headline, Type: Press Release, Brief Excerpt/Summary, Link: 'Read Full Release'",
+            "sample_entries": [
+              {
+                "date": "July 18, 2025",
+                "headline": "Imo State Flags Off New Youth Empowerment Initiative",
+                "excerpt": "Over five hundred youth to benefit from technical skill acquisition programs launched by the Ministry."
+              },
+              {
+                "date": "June 30, 2025",
+                "headline": "Commissioner Meets With Labour Unions Over Minimum Wage Dialogue",
+                "excerpt": "A tripartite roundtable was held to discuss fair wage adjustments in line with federal directives."
+              }
+            ]
+          },
+          "upcoming_events": {
+            "sample_event": {
+              "title": "2025 Imo State Labour & Skills Expo",
+              "date": "August 14, 2025",
+              "time": "10:00 AM",
+              "venue": "Hero Square, Owerri",
+              "details": "A major fair showcasing job opportunities, trainings, and innovation in skill development.",
+              "rsvp": "Link (if applicable)"
+            }
+          },
+          "announcements": [
+            "Form Submission Deadline: Cooperative Registration – July 31, 2025",
+            "Policy Update: New Labour Inspection Protocol Guidelines Now Available"
+          ],
+          "media_library": {
+            "images": "Photos from recent ministry activities",
+            "videos": "Clips from commissioner speeches, workshops, and press briefings"
+          },
+          "related_sections": [
+            "Policies & Regulations",
+            "Government for Citizen Services",
+            "Migrant Resource Centre Initiatives",
+            "Trade Union & Labour Relations"
+          ],
+          "programmes_preview": [
+            "Labour Migration Management",
+            "Trade Union Registration",
+            "National Electronic Labour Exchange (NELEX)",
+            "Child Labour Prevention Programs"
+          ],
+          "navigation": ["Home", "The Ministry", "Departments", "Agencies", "News & Media", "Resources", "Contact Us"],
+          "press_contact": {
+            "title": "For media inquiries, contact:",
+            "contact_info": {
+              "position": "Ministry Media Officer",
+              "email": "media@imolabour.ng",
+              "phone": "+234 801 234 5678",
+              "location": "Ministry Headquarters, Owerri, Imo State"
+            }
+          }
+        }
+      },
+      "contacts": {
+        "page_name": "Contacts",
+        "content": {
+          "page_title": "GET IN TOUCH!",
+          "intro_text": "We welcome your questions, feedback, and inquiries. Please use the information below to contact the Ministry of Labour and Employment. Our team is ready to assist you.",
+          "contact_information": {
+            "headquarters": {
+              "name": "Ministry of Labour and Employment",
+              "address": "State Secretariat Complex, Port Harcourt Road, Owerri, Imo State, Nigeria"
+            },
+            "phone_numbers": ["+234 803 000 1111", "+234 802 222 3333"],
+            "email_addresses": ["info@imolabour.ng", "labour@imostate.gov.ng"],
+            "office_hours": {
+              "days": "Monday – Friday",
+              "time": "8:00 AM – 4:00 PM (WAT)"
+            }
+          },
+          "contact_form": {
+            "fields": [
+              "Full Name",
+              "Email Address",
+              "Phone Number (optional)",
+              "Subject",
+              "Message Box",
+              "CAPTCHA or bot checker"
+            ],
+            "submit_button": "Submit Message"
+          },
+          "departmental_contacts": {
+            "labour_relations": "labour.relations@imolabour.ng",
+            "employment_training": "training@imolabour.ng",
+            "welfare_social_dialogue": "welfare@imolabour.ng",
+            "media_public_affairs": "media@imolabour.ng"
+          },
+          "social_media": {
+            "facebook": "fb.com/imolabour",
+            "twitter": "twitter.com/imolabour",
+            "instagram": "instagram.com/imolabour"
+          },
+          "faq_quick_links": [
+            "How can I register for a job fair?",
+            "How do I report an unfair labour practice?",
+            "Where can I download cooperative forms?"
+          ]
+        }
+      }
+    }
+  }
