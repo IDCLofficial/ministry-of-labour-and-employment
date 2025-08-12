@@ -8,16 +8,16 @@ import Image from "next/image";
 
 // Special Projects
 const SPECIAL_PROJECTS = [
-    {
-        number: 1,
-        title: "SkillUp Imo (Labour Arm)",
-        description: "Supporting the state's digital economy agenda, this program equips unemployed youth and job seekers with advanced digital, soft, and vocational skills including UI/UX design, web development, and digital marketing.",
-        location: "Statewide",
-        id: "skillup-imo",
-        category: "Skills Development",
-        status: "Ongoing",
-        partners: "State Government, Private Sector"
-    },
+    // {
+    //     number: 1,
+    //     title: "SkillUp Imo (Labour Arm)",
+    //     description: "Supporting the state's digital economy agenda, this program equips unemployed youth and job seekers with advanced digital, soft, and vocational skills including UI/UX design, web development, and digital marketing.",
+    //     location: "Statewide",
+    //     id: "skillup-imo",
+    //     category: "Skills Development",
+    //     status: "Ongoing",
+    //     partners: "State Government, Private Sector"
+    // },
     {
         number: 2,
         title: "MSME Employment Initiative",
