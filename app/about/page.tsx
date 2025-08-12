@@ -346,12 +346,6 @@ export default function About() {
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-900">Prof. Boniface G. Nworgu</h3>
                                 <p className="text-green-700 font-medium mt-1">Honorable Commissioner for Labour and Employment</p>
-                                <p className="mt-4 text-gray-600">
-                                    An accomplished scholar and seasoned labour expert with over 30 years of experience in education, 
-                                    labour policy, and human capital development. Before his appointment, he served as a professor 
-                                    of educational measurement and evaluation, holding leadership roles in academic institutions, 
-                                    policy advisory boards, and national commissions.
-                                </p>
                             </div>
                         </div>
 
@@ -369,12 +363,6 @@ export default function About() {
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-900">[Permanent Secretary&apos;s Name]</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
-                                <p className="mt-4 text-gray-600">
-                                    The Permanent Secretary provides strategic leadership for the ministry&apos;s administrative operations, 
-                                    ensuring effective implementation of labour policies and programs. Working closely with the Honorable 
-                                    Commissioner, they oversee workforce development initiatives, labour relations, and the execution of 
-                                    employment generation programs that benefit the people of Imo State.
-                                </p>
                             </div>
                         </div>
                     </div>
