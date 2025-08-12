@@ -138,6 +138,43 @@ export default function About() {
                 </div>
             </section>
 
+            {/* Commissioner Profile Section */}
+            <section className="py-12 sm:py-16 md:py-20 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+                        <div className="order-2 lg:order-1">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+                                Prof. Boniface G. Nworgu
+                            </h2>
+                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
+                                Honorable Commissioner for Labour and Employment
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
+                                Prof. Boniface G. Nworgu is an accomplished scholar, seasoned labour expert, and public administrator with over 30 years of
+                                experience in education, labour policy, and human capital development. Before his appointment as Honourable Commissioner
+                                for Labour and Employment, he served as a professor of educational measurement and evaluation and held leadership roles
+                                in academic institutions, policy advisory boards, and national commissions.
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
+                                In a rapidly changing economy, our duty as a government is not only to create jobs but to prepare our people for the future of work.
+                                At the Ministry of Labour and Employment, we believe in building strong institutions, promoting fair labour practices,
+                                and equipping our workforce with the skills and confidence needed to thrive. Through strategic partnerships, reforms,
+                                and impactful programs, we are laying the foundation for a more inclusive and productive Imo State.
+                            </p>
+                        </div>
+                        <div className="order-1 lg:order-2">
+                            <Image
+                                src="/assets/no-image.png"
+                                alt="Prof. Boniface G. Nworgu - Honorable Commissioner"
+                                width={500}
+                                height={600}
+                                className="rounded-lg shadow-lg w-full h-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Core Responsibilities Section */}
             <section className="py-12 sm:py-16 md:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
@@ -152,7 +189,7 @@ export default function About() {
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <svg className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
                                 </svg>
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
@@ -183,8 +220,8 @@ export default function About() {
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <svg className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11V11.99z"/>
-                                    <path d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11V11.99z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
                                 </svg>
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
@@ -199,7 +236,7 @@ export default function About() {
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <svg className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
                                 </svg>
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
@@ -214,8 +251,8 @@ export default function About() {
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <svg className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
-                                    <path d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
                                 </svg>
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
@@ -230,7 +267,7 @@ export default function About() {
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <svg className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h6v-2h-4V7z"/>
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h6v-2h-4V7z" />
                                 </svg>
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
@@ -244,39 +281,42 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Commissioner Profile Section */}
-            <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+            {/* Strategic Goals Section */}
+            <section className="py-16 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-                        <div className="order-2 lg:order-1">
-                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                                Prof. Boniface G. Nworgu
-                            </h2>
-                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
-                                Honorable Commissioner for Labour and Employment
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                                Prof. Boniface G. Nworgu is an accomplished scholar, seasoned labour expert, and public administrator with over 30 years of 
-                                experience in education, labour policy, and human capital development. Before his appointment as Honourable Commissioner 
-                                for Labour and Employment, he served as a professor of educational measurement and evaluation and held leadership roles 
-                                in academic institutions, policy advisory boards, and national commissions.
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                In a rapidly changing economy, our duty as a government is not only to create jobs but to prepare our people for the future of work. 
-                                At the Ministry of Labour and Employment, we believe in building strong institutions, promoting fair labour practices, 
-                                and equipping our workforce with the skills and confidence needed to thrive. Through strategic partnerships, reforms, 
-                                and impactful programs, we are laying the foundation for a more inclusive and productive Imo State.
-                            </p>
-                        </div>
-                        <div className="order-1 lg:order-2">
-                            <Image
-                                src="/assets/no-image.png"
-                                alt="Prof. Boniface G. Nworgu - Honorable Commissioner"
-                                width={500}
-                                height={600}
-                                className="rounded-lg shadow-lg w-full h-auto"
-                            />
-                        </div>
+                    <div className="text-center mb-10">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Objectives</h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            The Ministry of Labour and Employment is committed to these key objectives to drive employment, skills development, and workplace harmony in Imo State.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {[
+                            "Reduce unemployment through targeted skills development and job creation initiatives.",
+                            "Enhance the employability of Imo State's workforce through vocational and technical training programs.",
+                            "Foster harmonious industrial relations through effective dispute resolution mechanisms.",
+                            "Promote decent work standards and occupational safety across all sectors.",
+                            "Support the growth and sustainability of micro, small and medium enterprises (MSMEs).",
+                            "Strengthen labour market information systems for evidence-based policymaking.",
+                            "Enhance productivity and competitiveness of the state's workforce.",
+                            "Promote gender equality and social inclusion in employment opportunities.",
+                            "Develop strategic partnerships with private sector and development partners.",
+                            "Enhance the capacity of labour market institutions and stakeholders."
+                        ].map((goal, index) => (
+                            <AnimatedEntrance
+                                key={index}
+                                {...ANIMATION_PRESETS.CARD_FADE_UP}
+                                delay={0.1 * index}
+                            >
+                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                                        <span className="text-green-600 font-semibold">{index + 1}</span>
+                                    </div>
+                                    <p className="text-gray-700">{goal}</p>
+                                </div>
+                            </AnimatedEntrance>
+                        ))}
                     </div>
                 </div>
             </section>

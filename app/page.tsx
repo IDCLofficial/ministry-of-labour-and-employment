@@ -141,7 +141,7 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 leading-relaxed flex-grow">
                   Connecting micro and small businesses with trained job seekers to reduce unemployment
                 </p>
-                <Link href="/programs/msme-employment" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
+                <Link href="/programs#msme-employment" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
                   Learn More →
                 </Link>
               </div>
@@ -156,7 +156,7 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 leading-relaxed flex-grow">
                   Organizing artisans and skilled youth under labour-backed cooperatives to boost employment
                 </p>
-                <Link href="/programs/cooperative-labour" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
+                <Link href="/programs#cooperative-labour" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
                   Learn More →
                 </Link>
               </div>
@@ -171,7 +171,7 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 leading-relaxed flex-grow">
                   Enhancing workplace safety, workers&apos; rights, and employer-union harmony across sectors
                 </p>
-                <Link href="/programs/industrial-relations" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
+                <Link href="/programs#industrial-relations" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
                   Learn More →
                 </Link>
               </div>

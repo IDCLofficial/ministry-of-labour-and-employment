@@ -13,6 +13,7 @@ const SPECIAL_PROJECTS = [
         title: "SkillUp Imo (Labour Arm)",
         description: "Supporting the state's digital economy agenda, this program equips unemployed youth and job seekers with advanced digital, soft, and vocational skills including UI/UX design, web development, and digital marketing.",
         location: "Statewide",
+        id: "skillup-imo",
         category: "Skills Development",
         status: "Ongoing",
         partners: "State Government, Private Sector"
@@ -20,6 +21,7 @@ const SPECIAL_PROJECTS = [
     {
         number: 2,
         title: "MSME Employment Initiative",
+        id: "msme-employment",
         description: "A job facilitation program connecting micro and small businesses with trained job seekers to reduce unemployment while providing microgrants to MSMEs that hire Imo youth.",
         location: "Statewide",
         category: "Employment Generation",
@@ -29,6 +31,7 @@ const SPECIAL_PROJECTS = [
     {
         number: 3,
         title: "Labour Market Information System (LMIS)",
+        id: "lmis",
         description: "Building a digital labour data hub to analyze and visualize employment trends, featuring registration portals for employers and employees along with real-time vacancy and trend analytics.",
         location: "Statewide",
         category: "Digital Transformation",
@@ -38,6 +41,7 @@ const SPECIAL_PROJECTS = [
     {
         number: 4,
         title: "Cooperative Labour Scheme",
+        id: "cooperative-labour",
         description: "Organizing artisans, traders, and skilled youth under labour-backed cooperative projects to boost employment and productivity through registered cooperatives and access to microcredit.",
         location: "Statewide",
         category: "Cooperative Development",
@@ -47,6 +51,7 @@ const SPECIAL_PROJECTS = [
     {
         number: 5,
         title: "Industrial Relations Reform Program",
+        id: "industrial-relations",
         description: "Enhancing workplace safety, workers' rights education, and employer-union harmony across public and private sectors through labour town halls and legal aid services.",
         location: "Statewide",
         category: "Workplace Relations",
@@ -90,7 +95,7 @@ export default function Projects() {
                                     {...ANIMATION_PRESETS.CARD_FADE_UP} 
                                     delay={STAGGER_DELAYS.MEDIUM[index % STAGGER_DELAYS.MEDIUM.length]}
                                 >
-                                    <div className="bg-white border border-gray-200 h-full rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
+                                    <div id={project.id} className="bg-white border border-gray-200 h-full rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
                                         <div className="h-48 bg-green-50 flex items-center justify-center overflow-hidden">
                                             <Image
                                                 src={'/assets/no-image-lg.jpg'}
@@ -135,46 +140,6 @@ export default function Projects() {
                                 </AnimatedEntrance>
                             );
                         })}
-                    </div>
-                </div>
-            </section>
-
-            {/* Strategic Goals Section */}
-            <section className="py-16 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="text-center mb-10">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Objectives</h2>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            The Ministry of Labour and Employment is committed to these key objectives to drive employment, skills development, and workplace harmony in Imo State.
-                        </p>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {[
-                            "Reduce unemployment through targeted skills development and job creation initiatives.",
-                            "Enhance the employability of Imo State's workforce through vocational and technical training programs.",
-                            "Foster harmonious industrial relations through effective dispute resolution mechanisms.",
-                            "Promote decent work standards and occupational safety across all sectors.",
-                            "Support the growth and sustainability of micro, small and medium enterprises (MSMEs).",
-                            "Strengthen labour market information systems for evidence-based policymaking.",
-                            "Enhance productivity and competitiveness of the state's workforce.",
-                            "Promote gender equality and social inclusion in employment opportunities.",
-                            "Develop strategic partnerships with private sector and development partners.",
-                            "Enhance the capacity of labour market institutions and stakeholders."
-                        ].map((goal, index) => (
-                            <AnimatedEntrance 
-                                key={index} 
-                                {...ANIMATION_PRESETS.CARD_FADE_UP} 
-                                delay={0.1 * index}
-                            >
-                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
-                                        <span className="text-green-600 font-semibold">{index + 1}</span>
-                                    </div>
-                                    <p className="text-gray-700">{goal}</p>
-                                </div>
-                            </AnimatedEntrance>
-                        ))}
                     </div>
                 </div>
             </section>
