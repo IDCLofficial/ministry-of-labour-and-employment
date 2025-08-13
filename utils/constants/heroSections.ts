@@ -39,7 +39,6 @@ export const HERO_CONFIGS = {
     description: "Supporting decent work, social justice, and inclusive economic growth in Imo State through comprehensive labour and employment services.",
     height: 'medium' as const,
     alignment: 'left' as const,
-    overlay: false
   },
   
   NEWS: {

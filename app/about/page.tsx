@@ -16,7 +16,7 @@ export default function About() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
                         <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/Banner About - Ministry of Labour and Employment.jpg"
                                 alt="Ministry of Labour and Employment - Empowering the Imo Workforce"
                                 width={600}
                                 height={400}
@@ -162,13 +162,13 @@ export default function About() {
                                 and impactful programs, we are laying the foundation for a more inclusive and productive Imo State.
                             </p>
                         </div>
-                        <div className="order-1 lg:order-2">
+                        <div className="order-1 lg:order-2 aspect-[3.8/4]">
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/Prof. Boniface Ginikanwa Nworgu, ksc, fnae, fapqen, fiian,fsr, maeaa,miaea. Honourable Commissioner Ministry of Labour, Employment & Productivity.jpg"
                                 alt="Prof. Boniface G. Nworgu - Honorable Commissioner"
                                 width={500}
                                 height={600}
-                                className="rounded-lg shadow-lg w-full h-auto"
+                                className="rounded-lg shadow-lg w-full h-auto object-top object-cover"
                             />
                         </div>
                     </div>
@@ -334,13 +334,13 @@ export default function About() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
                         {/* Commissioner */}
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
-                            <div className="h-64 bg-gray-100 overflow-hidden">
+                            <div className="aspect-[3.8/4] bg-gray-100 overflow-hidden">
                                 <Image
-                                    src="/assets/no-image.png"
+                                    src="/photos/Prof. Boniface Ginikanwa Nworgu, ksc, fnae, fapqen, fiian,fsr, maeaa,miaea. Honourable Commissioner Ministry of Labour, Employment & Productivity.jpg"
                                     alt="Prof. Boniface G. Nworgu - Honorable Commissioner for Labour and Employment"
                                     width={400}
                                     height={400}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover object-top"
                                 />
                             </div>
                             <div className="p-6">
@@ -351,17 +351,17 @@ export default function About() {
 
                         {/* Permanent Secretary */}
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
-                            <div className="h-64 bg-gray-100 overflow-hidden">
+                            <div className="aspect-[3.8/4] bg-gray-100 overflow-hidden">
                                 <Image
-                                    src="/assets/no-image.png"
+                                    src="/photos/Dr Okeji Augustine Chidiebere.jpg"
                                     alt="Permanent Secretary - Ministry of Labour and Employment"
                                     width={400}
                                     height={400}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover object-top"
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900">[Permanent Secretary&apos;s Name]</h3>
+                                <h3 className="text-xl font-bold text-gray-900">Dr OKEJI AUSTINE CHIDIEBERE</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
                             </div>
                         </div>
@@ -386,7 +386,7 @@ export default function About() {
                         </div>
                         <div>
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/struc - Ministry of Labour and Employment.jpg"
                                 alt="Ministry of Special Projects - Organizational Structure"
                                 width={600}
                                 height={400}

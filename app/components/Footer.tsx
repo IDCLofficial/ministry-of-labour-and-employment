@@ -169,7 +169,7 @@ export default function Footer() {
                                     <p className="leading-relaxed hover:text-gray-200 transition-colors duration-300">
                                         State Secretariat Complex, Port Harcourt Road, Owerri, Imo State, Nigeria
                                     </p>
-                                    <div className="flex space-x-4 mt-2">
+                                    {/* <div className="flex space-x-4 mt-2">
                                         <a href="https://facebook.com/imolabour" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             Facebook
                                         </a>
@@ -179,7 +179,7 @@ export default function Footer() {
                                         <a href="https://instagram.com/imolabour" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             Instagram
                                         </a> 
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </AnimatedEntrance>
@@ -187,7 +187,7 @@ export default function Footer() {
 
                     <AnimatedEntrance {...ANIMATION_PRESETS.SECTION_FADE_IN} delay={600}>
                         <div className="border-t border-gray-600 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-6 md:pt-8 text-center">
-                            <p className="text-gray-300 text-sm sm:text-base hover:text-white transition-colors duration-300">Imo State Government</p>
+                            <p className="text-gray-300 text-sm sm:text-base hover:text-white transition-colors duration-300">Powered by <span className="text-green-500 font-semibold">Imo State Digital City</span></p>
                         </div>
                     </AnimatedEntrance>
                 </div>

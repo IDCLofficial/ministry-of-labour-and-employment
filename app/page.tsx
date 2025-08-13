@@ -30,7 +30,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
               <Image
-                src="/assets/no-image.png"
+                src="/photos/Banner Home - Ministry of Labour and Employment.webp"
                 alt="Ministry of Labour and Employment Headquarters"
                 width={600}
                 height={400}
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="flex-1 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP}>
                   <Image
-                    src="/assets/no-image.png"
+                    src="/photos/Commissioner Boniface G. Nworgu - Honourable Commissioner for Labour and Employment.png"
                     alt="Prof. Boniface G. Nworgu - Honourable Commissioner for Labour and Employment"
                     width={500}
                     height={600}
@@ -204,12 +204,11 @@ export default function Home() {
             </p>
           </AnimatedEntrance>
           <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
-            {[{ name: 'ITF', logo: '/assets/partners/itf-logo.png' },
-              { name: 'NECA', logo: '/assets/partners/neca-logo.png' },
-              { name: 'NLC', logo: '/assets/partners/nlc-logo.png' },
-              { name: 'TUC', logo: '/assets/partners/tuc-logo.png' },
-              { name: 'NISDP', logo: '/assets/partners/nisdp-logo.png' },
-              { name: 'NDE', logo: '/assets/partners/nde-logo.png' },
+            {[{ name: 'ITF', logo: '/photos/itf-logo-1.jpeg' },
+              { name: 'NECA', logo: '/photos/neca-logo.jpeg' },
+              { name: 'NLC', logo: '/photos/nlc-logo.png' },
+              { name: 'TUC', logo: '/photos/tuc-logo.jpeg' },
+              { name: 'NDE', logo: '/photos/nde-logo.png' },
             ].map((partner, index) => (
               <AnimatedEntrance
                 key={partner.name}
@@ -225,7 +224,7 @@ export default function Home() {
                       width={100}
                       title={`Partner ${partner.name}`}
                       height={60}
-                      className="w-full h-auto object-contain"
+                      className="w-full h-auto object-contain aspect-[2/1]"
                     />
                   </div>
                 </div>

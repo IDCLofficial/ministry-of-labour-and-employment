@@ -8,16 +8,6 @@ import Image from "next/image";
 
 // Special Projects
 const SPECIAL_PROJECTS = [
-    // {
-    //     number: 1,
-    //     title: "SkillUp Imo (Labour Arm)",
-    //     description: "Supporting the state's digital economy agenda, this program equips unemployed youth and job seekers with advanced digital, soft, and vocational skills including UI/UX design, web development, and digital marketing.",
-    //     location: "Statewide",
-    //     id: "skillup-imo",
-    //     category: "Skills Development",
-    //     status: "Ongoing",
-    //     partners: "State Government, Private Sector"
-    // },
     {
         number: 2,
         title: "MSME Employment Initiative",
@@ -26,7 +16,8 @@ const SPECIAL_PROJECTS = [
         location: "Statewide",
         category: "Employment Generation",
         status: "Ongoing",
-        partners: "Imo SME Agency, National Directorate of Employment (NDE)"
+        partners: "Imo SME Agency, National Directorate of Employment (NDE)",
+        imageSrc: "/photos/msme-employment - Ministry of Labour and Employment.jpg",
     },
     {
         number: 3,
@@ -36,7 +27,8 @@ const SPECIAL_PROJECTS = [
         location: "Statewide",
         category: "Digital Transformation",
         status: "In Development",
-        partners: "Technology Partners, Research Institutions"
+        partners: "Technology Partners, Research Institutions",
+        imageSrc: "/photos/lmis - Ministry of Labour and Employment-1.jpg",
     },
     {
         number: 4,
@@ -46,7 +38,8 @@ const SPECIAL_PROJECTS = [
         location: "Statewide",
         category: "Cooperative Development",
         status: "Piloting",
-        partners: "State Cooperatives Bank, Artisan Groups"
+        partners: "State Cooperatives Bank, Artisan Groups",
+        imageSrc: "/photos/cooperative-labour - Ministry of Labour and Employment.jpeg",
     },
     {
         number: 5,
@@ -56,7 +49,8 @@ const SPECIAL_PROJECTS = [
         location: "Statewide",
         category: "Workplace Relations",
         status: "Active – Phase II",
-        partners: "Labour Unions, Employer Associations"
+        partners: "Labour Unions, Employer Associations",
+        imageSrc: "/photos/industrial-relations - Ministry of Labour and Employment.png",
     }
 ];
 
@@ -98,11 +92,11 @@ export default function Projects() {
                                     <div id={project.id} className="bg-white border border-gray-200 h-full rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
                                         <div className="h-48 bg-green-50 flex items-center justify-center overflow-hidden">
                                             <Image
-                                                src={'/assets/no-image-lg.jpg'}
+                                                src={ project.imageSrc || '/assets/no-image-lg.jpg'}
                                                 alt={project.title}
                                                 width={400}
                                                 height={200}
-                                                className="object-cover w-full h-full"
+                                                className="object-cover w-full h-full object-top"
                                             />
                                         </div>
                                         <div className="p-6">
