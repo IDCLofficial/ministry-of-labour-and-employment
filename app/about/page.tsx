@@ -361,7 +361,7 @@ export default function About() {
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900 capitalize">Dr OKEJI AUSTINE CHIDIEBERE</h3>
+                                <h3 className="text-xl font-bold text-gray-900 capitalize">Dr Okeji Austine Chidiebere</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
                             </div>
                         </div>
