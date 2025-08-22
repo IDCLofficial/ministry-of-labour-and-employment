@@ -167,7 +167,7 @@
           "contact_schedule": {
             "office_contact": {
               "location": "Ministry of Labour and Employment Headquarters, Owerri",
-              "email": "commissioner.labour@imostate.gov.ng",
+              "email": "commissioner.info@labour.im.gov",
               "phone": "+234 803 456 7890"
             },
             "public_briefings": [
@@ -373,7 +373,7 @@
           ],
           "call_to_action": {
             "text": "Want to participate, volunteer, or partner with us on any of these programs?",
-            "contact": "Reach out via our [Contact Form] or email: labour@imostate.gov.ng"
+            "contact": "Reach out via our [Contact Form] or email: info@labour.im.gov"
           }
         }
       },
@@ -454,7 +454,7 @@
               "address": "State Secretariat Complex, Port Harcourt Road, Owerri, Imo State, Nigeria"
             },
             "phone_numbers": ["+234 803 000 1111", "+234 802 222 3333"],
-            "email_addresses": ["info@imolabour.ng", "labour@imostate.gov.ng"],
+            "email_addresses": ["info@imolabour.ng", "info@labour.im.gov"],
             "office_hours": {
               "days": "Monday – Friday",
               "time": "8:00 AM – 4:00 PM (WAT)"
