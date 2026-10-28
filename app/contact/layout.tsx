@@ -2,7 +2,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "Contact Us",
-  description: "Contact the Ministry of Labour & Employment, Imo State Government: office location and ways to reach the ministry.",
+  description: "Contact the Ministry of Labour and Employment, Imo State Government: office location and ways to reach the ministry.",
   path: "/contact",
 });
 

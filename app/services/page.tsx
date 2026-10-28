@@ -6,8 +6,8 @@ import { ANIMATION_PRESETS, STAGGER_DELAYS } from "../../utils/constants/animati
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Services",
-  description: "Services offered by the Ministry of Labour & Employment of the Imo State Government.",
+  title: "Labour Relations, Skills and Employment Services",
+  description: "Labour dispute resolution, skills development and youth empowerment, cooperative labour and MSME support, workplace safety inspection and labour policy advice in Imo State.",
   path: "/services",
 });
 

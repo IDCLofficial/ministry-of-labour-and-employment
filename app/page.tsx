@@ -11,8 +11,8 @@ import CustomImage from "./components/CustomImage";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: { absolute: "Ministry of Labour & Employment | Imo State Government" },
-  description: "Official website of the Ministry of Labour & Employment, Imo State Government: services, departments, projects, news and events.",
+  title: { absolute: "Imo State Ministry of Labour and Employment" },
+  description: "Jobs, skills and workers' rights in Imo State: labour relations and dispute resolution, MSME and cooperative support, workplace safety and inspection.",
   path: "/",
 });
 

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 // Verified production domain (Vercel project domain). Override per environment if needed.
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://labour.im.gov.ng").replace(/\/$/, "");
-export const SITE_NAME = "Ministry of Labour & Employment";
+export const SITE_URL = (process.env.NEXT_PUBLIC_SEO_SITE_URL || "https://labour.im.gov.ng").replace(/\/$/, "");
+export const SITE_NAME = "Ministry of Labour and Employment";
 export const DEFAULT_DESCRIPTION =
-  "Official website of the Ministry of Labour & Employment, Imo State Government: services, departments, projects, news and events.";
+  "Official website of the Ministry of Labour and Employment, Imo State Government: services, departments, projects, news and events.";
 export const OG_IMAGE_PATH = "/og-image.jpg";
 
 type Title = NonNullable<Metadata["title"]>;

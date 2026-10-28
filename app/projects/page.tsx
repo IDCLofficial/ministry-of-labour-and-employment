@@ -17,7 +17,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "Projects",
-  description: "Projects and programmes of the Ministry of Labour & Employment, Imo State Government.",
+  description: "Projects and programmes of the Ministry of Labour and Employment, Imo State Government.",
   path: "/projects",
 });
 

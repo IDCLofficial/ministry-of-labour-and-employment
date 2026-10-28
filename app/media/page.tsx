@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "Media Gallery",
-  description: "Photo and media gallery of the Ministry of Labour & Employment, Imo State Government.",
+  description: "Photo and media gallery of the Ministry of Labour and Employment, Imo State Government.",
   path: "/media",
 });
 
